@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.header-container {
+  display: flex;
+}
+
+/* SEARCH SECTION */
+
+.search-section {
+  display: flex;
+  padding: 10px 100px 0 100px;
+  justify-content: center;
+  flex: 1;
+  /* background-color: lightcoral; */
+}
+
+.search-box {
+  height: 20px;
+  width: 400px;
+  /* max-width: 300px; */
+  border-radius: 10px;
+}
+
+/* LOGO SECTION */
+
+.logo-section {
+  display: flex;
+  width: 300px;
+}
+
+.logo-section .hamburger {
+  margin: 10px 15px 0 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.logo-section .logo {
+  width: 100px;
+  height: 50px;
+}
+
+/* PROFILE SECTION */
+
+.profile-section {
+  justify-content: right;
+  margin-top: 10px;
+  display: flex;  
+  width: 300px;
+}
+
+.profile-section img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin-right: 30px;
+}

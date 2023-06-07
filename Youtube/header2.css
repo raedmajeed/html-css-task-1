@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  border-width: 300px;
+  margin-left: 100px;
+  position: absolute;
+  top: 80px;
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+}
+
+.title-box {
+  padding: 12px;
+  background-color: rgb(247, 246, 246);
+  border-radius: 10px;
+  transition: background-color 0.15s;
+  margin-right: 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.title-box-selected {
+  padding: 14px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-family: 'Roboto';
+}
+
+.next-button {
+  padding: 14px;
+}
+
+.title-box:hover {
+  background-color: rgb(230, 227, 227);
+}

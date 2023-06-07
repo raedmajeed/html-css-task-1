@@ -1,0 +1,82 @@
+/* DISPLAY SETTING */
+
+.video-container {
+  width: 300px;
+  display: inline-block;
+}
+
+/* THUMBNAIL SETTING */
+
+.thumbnail-image-container {
+  display: block;
+  width: 300px;
+}
+
+.thumbnail-image {
+  position: relative;
+  height: 200px;
+  width: 400px;
+}
+
+.timestamp {
+  width: 43px;
+  text-align: center;
+  font-family: 'Roboto';
+  padding: 2px 2px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 175px;
+  left: 350px;
+}
+
+/* VIDEO CONTENT SETTING USER SIDE*/
+
+.video-content-container {
+  display: block;
+  margin-top: 10px;
+}
+
+.user-image-container {
+  vertical-align: top;
+  margin-right: 5px;
+  display: inline-block;
+  width: 40px;
+}
+
+.user-image {
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* VIDEO CONTENT SETTING VIDEO SIDE*/
+
+.video-content {
+  display: inline-block;
+  width: 250px;
+}
+
+p {
+  margin: 0 ;
+}
+
+.title-heading {
+  width: 300px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.title-content {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 100;
+  color: rgb(96, 96, 96);
+  text-align: left;
+}

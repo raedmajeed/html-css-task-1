@@ -1,0 +1,90 @@
+.header-container {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  box-sizing: border-box;
+  position: relative;
+  position: fixed;
+  background-color: white;
+  z-index: 100;
+}
+
+.header-container {
+  display: flex;
+}
+
+/* SEARCH SECTION */
+
+.search-section {
+  margin: -10;
+  margin-top: 5px;
+  display: flex;
+  padding: 10px 100px 0 100px;
+  justify-content: center;
+  flex: 1;
+}
+
+.search-box {
+  border-width: 2;
+  height: 40px;
+  width: 570px;
+  border-style: solid;
+  padding-left: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.search-button {
+  border-width: 0;
+  vertical-align: top;
+  height: 40px;
+  width: 70px;
+  border-style: solid;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.search-button-image {
+  height: 20px;
+  width: 20px;
+}
+
+/* LOGO SECTION */
+
+.logo-section {
+  margin: -10;
+  margin-top: 10px;
+  display: flex;
+  width: 300px;
+}
+
+.logo-section .hamburger {
+  margin: 10px 15px 0 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.logo-section .logo {
+  width: 100px;
+  height: 50px;
+}
+
+/* PROFILE SECTION */
+
+.profile-section {
+  margin-top: 20px;
+  justify-content: right;
+  display: flex;  
+  width: 300px;
+}
+
+.profile-section img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin-right: 30px;
+}

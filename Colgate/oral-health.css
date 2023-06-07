@@ -1,0 +1,96 @@
+.oral-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 75px 125px 0 125px;
+  padding: 0px 75px;
+}
+
+.heading {
+  font-family: sans-serif;
+  font-size: 11px;
+  letter-spacing: 1.65px;
+  font-weight: 900;
+}
+
+
+/* LEFT SECTION */
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.oral-left-heading {
+  margin-top: 22px;
+  vertical-align: top;
+  font-style: italic;
+  color: rgb(210, 1, 13);
+  font-family: sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-right: 22px;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.oral-left-content {
+  margin-top: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  display: inline-block;
+  letter-spacing: -0.1px;
+}
+
+.oral-learn-button {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  background-color: #eeeeee;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 40px;
+  width: 130px;
+  font-family: sans-serif;
+  color: rgb(210, 1, 13);
+  cursor: pointer;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* RIGHT SECTION */
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-content-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-content-div p {
+  letter-spacing: -0.25px;
+  margin-top: 22px;
+  vertical-align: top;
+  font-style: italic;
+  color: rgb(210, 1, 13);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-right: 22px;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+}
